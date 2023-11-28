@@ -136,6 +136,20 @@ nav {
     transition: .2s ease-in-out;
 }
 
+main{
+    width: 80%;
+}
+
+.lg {
+    display: flex;
+    justify-content: s;
+    align-items: center;
+}
+
+.sec1lg, .sec2lg, .sec3lg, .sec4lg {
+    width: 20%;
+}
+
 @media (min-width:1041px) {
     .sec1, .sec2, .sec3 {
         width: 25%;
